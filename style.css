@@ -31,6 +31,7 @@ img {
   background-color: hsl(213, 19%, 18%);
   padding: 30px;
   border-radius: 20px;
+  display: none;
 }
 
 .round-image {
@@ -84,7 +85,43 @@ img {
 }
 
 .thanks-message {
-  display: none;
+  /* display: none; */
+  width: 40%;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.thanks-message img {
+  width: 50%;
+  height: 40%;
+}
+
+.selected-number {
+  border-radius: 20px;
+  background-color: hsl(217, 12%, 63%);
+  margin-top: 20px;
+}
+
+.selected-number h2 {
+  color: hsl(25, 97%, 53%);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.thanks-message h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.thanks-message p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 15px;
 }
 
 .attribution {
