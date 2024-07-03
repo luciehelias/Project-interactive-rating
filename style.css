@@ -165,3 +165,60 @@ img {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 450px) {
+  .rating-state {
+    width: 375px;
+    height: 400px;
+  }
+
+  .rating-state h1 {
+    font-size: 24px;
+  }
+
+  .rating-state p {
+    font-size: 16px;
+  }
+
+  .thanks-message {
+    width: 375px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .rating-state {
+    width: 325px;
+    height: 365px;
+  }
+
+  .round-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .rating-state h1 {
+    font-size: 24px;
+  }
+
+  .rating-state p {
+    font-size: 13px;
+  }
+
+  .rating-number button {
+    width: 40px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .submit-button {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .thanks-message {
+    width: 325px;
+    height: 365px;
+  }
+}
