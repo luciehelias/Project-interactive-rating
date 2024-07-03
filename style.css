@@ -27,17 +27,18 @@ img {
 }
 
 .rating-state {
-  width: 40%;
+  width: 400px;
+  height: 400px;
   background-color: hsl(213, 19%, 18%);
   padding: 30px;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .round-image {
   border-radius: 100%;
-  background-color: hsl(217, 12%, 63%);
-  width: 30px;
-  height: 30px;
+  background-color: hsla(217, 12%, 63%, 0.1);
+  width: 45px;
+  height: 45px;
   display: flex;
   object-fit: cover;
   overflow: hidden;
@@ -52,7 +53,7 @@ img {
 .rating-state h1 {
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 28px;
   margin-top: 30px;
 }
 
@@ -61,38 +62,45 @@ img {
   font-size: 15px;
   font-weight: 400;
   margin-top: 15px;
+  line-height: 1.5;
 }
 
 .rating-number {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
 .rating-number button {
   background-color: hsla(217, 12%, 63%, 0.1);
   border-radius: 100%;
-  padding: 15px;
+  width: 50px;
+  height: 50px;
   border-style: none;
   color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .submit-button {
   background-color: hsl(25, 97%, 53%);
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 30px;
+  padding: 15px;
   width: 100%;
   margin-top: 30px;
   border-style: none;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 .thanks-message {
   display: none;
-  width: 40%;
+  width: 400px;
+  height: 400px;
   background-color: hsl(213, 19%, 18%);
-  padding: 30px;
+  padding: 50px 30px;
   border-radius: 20px;
   /* display: flex; */
   align-items: center;
@@ -102,24 +110,25 @@ img {
 }
 
 .thanks-message img {
-  width: 50%;
-  height: 40%;
+  width: 45%;
+  height: 45%;
 }
 
 .selected-number {
-  color: hsl(25, 97%, 53%);
-  font-weight: 400;
-  font-size: 14px;
+  color: hsla(25, 97%, 53%, 0.8);
+  font-weight: 300;
+  font-size: 15px;
   border-radius: 20px;
   background-color: hsla(217, 12%, 63%, 0.1);
   margin-top: 30px;
   padding: 10px 20px;
+  letter-spacing: 0.5px;
 }
 
 .thanks-message h1 {
   color: hsl(0, 0%, 100%);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 28px;
   margin-top: 30px;
 }
 
@@ -128,6 +137,7 @@ img {
   font-size: 15px;
   font-weight: 400;
   margin-top: 15px;
+  line-height: 1.5;
 }
 
 .attribution {
