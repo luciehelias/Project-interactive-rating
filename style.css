@@ -70,9 +70,11 @@ img {
 }
 
 .rating-number button {
-  background-color: hsl(217, 12%, 63%);
+  background-color: hsla(217, 12%, 63%, 0.1);
   border-radius: 100%;
   padding: 15px;
+  border-style: none;
+  color: hsl(217, 12%, 63%);
 }
 
 .submit-button {
@@ -81,6 +83,9 @@ img {
   padding: 10px;
   width: 100%;
   margin-top: 30px;
+  border-style: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .thanks-message {
@@ -106,9 +111,9 @@ img {
   font-weight: 400;
   font-size: 14px;
   border-radius: 20px;
-  background-color: hsl(217, 12%, 63%);
+  background-color: hsla(217, 12%, 63%, 0.1);
   margin-top: 20px;
-  padding: 5px 5px;
+  padding: 10px 20px;
 }
 
 .thanks-message h1 {
