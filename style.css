@@ -80,6 +80,17 @@ img {
   color: hsl(217, 12%, 63%);
   font-size: 15px;
   font-weight: 700;
+  cursor: pointer;
+}
+
+.rating-number button:focus {
+  background-color: white;
+  color: black;
+}
+
+.rating-number button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: black;
 }
 
 .submit-button {
@@ -93,6 +104,11 @@ img {
   letter-spacing: 2px;
   font-weight: 700;
   font-size: 15px;
+  cursor: pointer;
+}
+
+.submit-button:focus {
+  background-color: white;
 }
 
 .thanks-message {
